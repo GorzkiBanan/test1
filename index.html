@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        #gif {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="gif"></div>
+    <script>
+        const img = document.createElement("img");
+        img.src = "https://media.tenor.com/AanF1BaWq7YAAAAd/meme.gif";
+        img.alt = "Cool Gif";
+        img.style.maxWidth = "100%";
+
+        document.getElementById("gif").appendChild(img);
+    </script>
+</body>
+</html>
